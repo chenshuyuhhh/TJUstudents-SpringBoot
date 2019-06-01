@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.chenshuyusc.TJUstudents</OriginalElement>
+  <nodes>
+    <node x="0.0" y="165.1328125">com.chenshuyusc.TJUstudents.configurer</node>
+    <node x="305.0" y="165.1328125">com.chenshuyusc.TJUstudents.service</node>
+    <node x="173.0" y="165.1328125">com.chenshuyusc.TJUstudents.dao</node>
+    <node x="360.375" y="5.1328125">com.chenshuyusc.TJUstudents.model</node>
+    <node x="257.0" y="240.1328125">com.chenshuyusc.TJUstudents.Application</node>
+    <node x="121.25" y="5.1328125">com.chenshuyusc.TJUstudents.core</node>
+    <node x="0.0" y="240.1328125">com.chenshuyusc.TJUstudents.Swagger2</node>
+    <node x="457.0" y="165.1328125">com.chenshuyusc.TJUstudents.web</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chenshuyusc.TJUstudents.core" target="com.chenshuyusc.TJUstudents.core">
+      <point x="-50.75" y="15.0" />
+      <point x="128.5" y="55.1328125" />
+      <point x="101.25" y="55.1328125" />
+      <point x="101.25" y="30.1328125" />
+      <point x="-58.0" y="10.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.web" target="com.chenshuyusc.TJUstudents.model">
+      <point x="38.0" y="-15.0" />
+      <point x="552.0" y="95.1328125" />
+      <point x="477.375" y="95.1328125" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.configurer" target="com.chenshuyusc.TJUstudents.core">
+      <point x="-38.24999999999994" y="-15.0" />
+      <point x="38.25000000000006" y="135.1328125" />
+      <point x="172.0" y="135.1328125" />
+      <point x="-7.25" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.web" target="com.chenshuyusc.TJUstudents.core">
+      <point x="-38.0" y="-15.0" />
+      <point x="476.0" y="115.1328125" />
+      <point x="230.0" y="115.1328125" />
+      <point x="50.75" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.dao" target="com.chenshuyusc.TJUstudents.core">
+      <point x="-28.0" y="-15.0" />
+      <point x="21.75" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.dao" target="com.chenshuyusc.TJUstudents.model">
+      <point x="28.0" y="-15.0" />
+      <point x="257.0" y="135.1328125" />
+      <point x="423.375" y="135.1328125" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.service" target="com.chenshuyusc.TJUstudents.model">
+      <point x="33.0" y="-15.0" />
+      <point x="404.0" y="145.1328125" />
+      <point x="441.375" y="145.1328125" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.model" target="com.chenshuyusc.TJUstudents.model">
+      <point x="-36.0" y="15.0" />
+      <point x="387.375" y="65.1328125" />
+      <point x="330.375" y="65.1328125" />
+      <point x="330.375" y="20.1328125" />
+      <point x="-63.0" y="-0.0" />
+    </edge>
+    <edge source="com.chenshuyusc.TJUstudents.service" target="com.chenshuyusc.TJUstudents.core">
+      <point x="-33.0" y="-15.0" />
+      <point x="338.0" y="125.1328125" />
+      <point x="215.5" y="125.1328125" />
+      <point x="36.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="192.0" y="200.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

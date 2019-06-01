@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chenshuyusc.TJUstudents.dao.StudentsMapper">
+  <resultMap id="BaseResultMap" type="com.chenshuyusc.TJUstudents.model.Students">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="sid" jdbcType="CHAR" property="sid" />
+    <result column="sname" jdbcType="CHAR" property="sname" />
+    <result column="gender" jdbcType="CHAR" property="gender" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="year" jdbcType="INTEGER" property="year" />
+    <result column="classname" jdbcType="CHAR" property="classname" />
+  </resultMap>
+</mapper>
