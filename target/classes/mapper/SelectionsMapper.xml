@@ -5,8 +5,8 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <result column="sid" jdbcType="CHAR" property="sid" />
-    <result column="cid" jdbcType="CHAR" property="cid" />
+    <id column="sid" jdbcType="CHAR" property="sid" />
+    <id column="cid" jdbcType="CHAR" property="cid" />
     <result column="year" jdbcType="INTEGER" property="year" />
     <result column="score" jdbcType="INTEGER" property="score" />
   </resultMap>

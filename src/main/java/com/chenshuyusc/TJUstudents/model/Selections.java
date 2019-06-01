@@ -6,6 +6,7 @@ public class Selections {
     @Id
     private String sid;
 
+    @Id
     private String cid;
 
     private Integer year;
